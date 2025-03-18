@@ -218,7 +218,7 @@ export default function Home() {
           </div>
           <div className="mx-auto max-w-[58rem] mt-8">
             <InstallCommand
-              command="curl -o script.sh http://genscript.deploylite.tech/genscript.sh"
+              command="curl -o genscript.sh http://genscript.deploylite.tech/genscript.sh"
               description="One-line installation for macOS and Linux"
             />
             <div className="mt-6">
