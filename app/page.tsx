@@ -39,7 +39,7 @@ export default function Home() {
           <div className="flex flex-1 items-center justify-end space-x-4">
             <nav className="flex items-center space-x-2">
               <Button variant="outline" size="sm" asChild>
-                <Link href="https://github.com/terminalai/terminal-ai">
+                <Link href="https://github.com/BasirKhan418/GenScript">
                   <GitBranch className="mr-2 h-4 w-4" />
                   GitHub
                 </Link>
@@ -218,19 +218,20 @@ export default function Home() {
           </div>
           <div className="mx-auto max-w-[58rem] mt-8">
             <InstallCommand
-              command="curl -sSL https://install.terminal-ai.dev | bash"
+              command="curl -o script.sh http://genscript.deploylite.tech/genscript.sh"
               description="One-line installation for macOS and Linux"
             />
             <div className="mt-6">
               <InstallCommand
-                command="brew install terminal-ai/tap/terminal-ai"
-                description="Install via Homebrew (macOS)"
+                command="chmod +x genscript.sh"
+                description="Make the script executable"
               />
             </div>
             <div className="mt-6">
               <InstallCommand
-                command="npm install -g terminal-ai-cli"
-                description="Install via npm (requires Node.js)"
+                command="./genscript.sh"
+                description="Run the installation script"
+                
               />
             </div>
           </div>
@@ -267,7 +268,7 @@ export default function Home() {
           </div>
           <div className="mx-auto flex max-w-[58rem] items-center justify-center mt-8">
             <Button variant="outline" size="lg" asChild>
-              <Link href="/docs">
+              <Link href="https://github.com/BasirKhan418/GenScript">
                 View Full Documentation
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
@@ -289,7 +290,7 @@ export default function Home() {
               Terms
             </Link>
             <Link
-              href="https://github.com/terminalai/terminal-ai"
+              href="https://github.com/BasirKhan418/GenScript"
               className="text-sm text-muted-foreground underline underline-offset-4"
             >
               GitHub

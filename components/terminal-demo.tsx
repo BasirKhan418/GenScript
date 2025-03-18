@@ -112,7 +112,7 @@ export default function TerminalDemo() {
 
         <TabsContent value="prompt" className="mt-4">
           <div className="font-mono">
-            <div className="mb-4 text-green-400">user@terminal-ai:~$</div>
+            <div className="mb-4 text-green-400">user@GenScript🤖:~$</div>
 
             <div className="flex items-center">
               <span className="text-green-400 mr-2">AI&gt;</span>
@@ -177,7 +177,7 @@ export default function TerminalDemo() {
 
         <TabsContent value="auto" className="mt-4">
           <div className="font-mono">
-            <div className="mb-4 text-green-400">user@terminal-ai:~$</div>
+            <div className="mb-4 text-green-400">user@GenScript🤖:~$</div>
 
             <div className="flex items-center relative">
               <span className="text-green-400 mr-2">$</span>
